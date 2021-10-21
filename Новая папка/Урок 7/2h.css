@@ -1,0 +1,62 @@
+.header{
+    background-color: black;
+    height: 100px;
+    width: 800px;
+    color:white;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.Footer{
+    background-color: black;
+    height: 100px;
+    width: 800px;
+    color:white;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.left{
+    background-color:yellow;
+    width: 250px;
+    height: 605px;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+}
+.right{
+    background-color:green;
+    width: 615px;
+    height: 615px;
+    margin-right: 10px;
+    display: inline-block;
+}
+text:hover{
+    font-size: 15px;
+    color:red;
+}                
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+.img{
+    width: 597px;
+    height: 400px;
+    background: url("https://wordpress-developer.pp.ua/wp-content/uploads/flexbox-css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+.second{
+    text-align: center;
+    color: white;
+    font-size: px;
+}
+
+
